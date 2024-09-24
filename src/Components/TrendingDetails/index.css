@@ -1,0 +1,82 @@
+.Trending_each_videos_container{
+    list-style-type: none;
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: auto;
+}
+
+
+
+.Trending_image{
+    width: 50%;
+}
+.Desktop_Trending_each_videos_details{
+    margin-left: 15px;
+}
+
+.Trending_each_videos_details_heading{
+    font-family: "Roboto";
+    font-size: 22px;
+    color: #212121;
+    font-weight: 600;
+}
+
+.Trending_each_videos_details_para{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #7e858e;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.mobile_Trending_each_videos_details_para{
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #7e858e;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.Mobile_Trending_each_videos_details{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.Mobile_Trending_profile_url{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+@media  screen and (max-width: 767px) {          /* This is Mobile views */
+    .Trending_each_videos_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .Trending_image{
+        width: 100%;
+    }
+
+    .Desktop_Trending_each_videos_details{
+        display: none;
+    }
+
+    .Trending_each_videos_details_heading{
+        font-size: 16px;
+    }
+} 
+
+@media  screen and (min-width:768px) {          /* This is Desktop views */
+    .Mobile_Trending_each_videos_details{
+        display: none;
+    }
+}

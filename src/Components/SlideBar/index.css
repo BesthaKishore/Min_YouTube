@@ -1,0 +1,54 @@
+.Link{
+    text-decoration: none;
+}
+
+.side_container{
+    width: 25%;
+    height: 150vh;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 768px){
+    .side_container{
+        display: none;
+    }
+}
+
+.button_active_container{
+    width: 100%;
+}
+
+.container{
+    background-color: #cbd5e1;
+    width: 100%;
+    padding: 13px 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.containers{
+    width: 100%;
+    padding: 13px 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.button_1{
+    background-color: transparent;
+    border-width: 0px;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    color: #181818;
+    outline: none;
+}

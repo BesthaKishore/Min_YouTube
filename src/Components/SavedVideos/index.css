@@ -1,0 +1,140 @@
+.get_successfull_container{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    overflow: auto;
+}
+
+.SaveVideo_card_container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    
+}
+
+.Treding_right_continer{
+    background-color:#f1f1f1 ;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Treding_logo_container{
+    background-color: #cbd5e1;
+    padding: 20px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.Treding_heading{
+    font-family: "Roboto";
+    font-size: 30px;
+    color: #181818;
+    font-weight: 600;
+}
+
+.Failure_videos_container{
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.Failure_continer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Failure_image{
+    width: 450px;
+    margin: 20px;
+}
+
+.Failure_videos_heading{
+    font-family: "Roboto";
+    font-size: 25px;
+    color: #181818;
+    font-weight: 600;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.Failur_videos_para{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #64748b;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Each_video_save_container{
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    height: 150vh;
+    width: 100%;
+    padding: 30px 25px;
+}
+
+.Saved_video_container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 30%;
+    margin: 15px 0;
+    overflow: hidden;
+}
+
+.saved_thumbnaliurl{
+    width: 50%;
+    height: 100%;
+    margin-right: 15px;
+}
+
+.Saved_video_details{
+    padding: 15px 10px;
+    width: 350px;
+}
+
+.Saved_video_heading_1{
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #181818;
+    font-weight: 600;
+    line-height: 1;
+}
+
+@media screen and (max-width: 767px){
+    .Saved_video_heading_1{
+        font-size: 16px;
+        line-height: 1;
+    }
+}
+
+.Saved_video_heading_2{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #7e858e;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.viewCount{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #7e858e;
+    font-weight: 500;
+}
